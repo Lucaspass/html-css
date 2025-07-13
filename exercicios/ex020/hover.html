@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div#id1:hover > p{
+            display: block;
+            color: beige;
+            background-color: blueviolet;
+            font-size: 16px;
+            width: 200px;
+        }
+
+        div#id1 > p{
+            display: none;
+        }
+
+        div#id1:hover{
+            color: red;
+        }
+
+        div#id2{
+            background-color: aquamarine;
+            width: 300px;
+        }
+
+        div#id2 > p{
+            display: none;
+        }
+
+        div#id2:hover > p{
+            display: block;
+            color: white;
+            background-color: black;
+            font-size: 1em;
+            width: 300px;
+            height: 30px;
+        }
+
+        div#id2:hover{
+            background-color: red;
+            color:black ;
+            width: 300px;
+            height: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover </h1>
+    <p>Passe o mouse sobre o texto abaixo<p>   
+    <div id="id1">Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+
+    <div id="id2"> Tiago quer Janaina.
+        <p>Mas também quer Patricia</p>
+    </div>
+
+    <p>Fim do Exemplo</p>
+</body>
+</html>
