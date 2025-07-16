@@ -51,7 +51,7 @@ article.semimg{
 }
 
 article#comimg1{
-    background-image: url(imagens/background001.jpg);
+    background-image: url("imagens/background001.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -76,7 +76,7 @@ article#comimg1 > p{
     margin-bottom: 40px;}
    
 article#comimg2{
-    background-image: url(imagens/background002.jpg);
+    background-image: url("imagens/background002.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
