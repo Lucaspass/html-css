@@ -51,7 +51,7 @@ article.semimg{
 }
 
 article#comimg1{
-    background-image: url("imagens/fotos-do-1920x1080.jpg");
+    background-image: url("imagens/background001.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
