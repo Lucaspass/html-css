@@ -1,13 +1,6 @@
 @charset "UTF-8";
 
-@media(max-width: 600px){
-    article#comimg1{
-        background-image: url(imagens/background001.jpg);
-        background-attachment: scroll;
-        background-size: cover;
-        }
 
-}
 
 
 body{
@@ -115,5 +108,18 @@ footer{
     font-size: 20px;
     padding-top: 7px;
     padding-bottom: 7px;
+
+}
+
+@media(max-width: 600px){
+    article#comimg1{
+        background-image: url(imagens/background001.jpg);
+        background-attachment: scroll;
+        background-size: cover;
+        }
+
+     article#comimg2{
+        background-attachment: scroll;
+     }   
 
 }
