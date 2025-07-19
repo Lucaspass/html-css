@@ -54,10 +54,12 @@ article.semimg{
 }
 
 article#comimg1{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.676);
     background-image: url("imagens/background001.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: right center;
     height: auto;
     margin-top: 50px;
     padding-top: 30px;
@@ -79,10 +81,12 @@ article#comimg1 > p{
     margin-bottom: 40px;}
    
 article#comimg2{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.676);
     background-image: url("imagens/background002.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: right center;
     height: auto;
     margin-top: 50px;
     padding-top: 30px;
@@ -111,15 +115,4 @@ footer{
 
 }
 
-@media(max-width: 600px){
-    article#comimg1{
-        background-image: url(imagens/background001.jpg);
-        background-attachment: scroll;
-        background-size: cover;
-        }
 
-     article#comimg2{
-        background-attachment: scroll;
-     }   
-
-}
