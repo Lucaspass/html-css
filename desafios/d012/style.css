@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+@media(max-width: 600px){
+    article#comimg1{
+        background-image: url(imagens/background001.jpg);
+        background-attachment: scroll;
+        background-size: cover;
+        }
+
+}
+
+
 body{
     background-color: black;
     margin: 0;
