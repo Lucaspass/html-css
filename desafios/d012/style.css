@@ -115,4 +115,13 @@ footer{
 
 }
 
+@media(max-width:600px){
+    article#comimg1,
+    article#comimg2{
+        background-attachment: scroll;
+        
+    }
+    
+
+}
 
