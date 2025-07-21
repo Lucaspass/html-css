@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colunas com estilos</title>
+    <style>
+        table{
+            font-family: Arial, Helvetica, sans-serif;
+            width: 400px;          
+            border-collapse: collapse;    
+        }
+
+        caption{
+            font-size: 18px;
+            font-weight: bold;        
+        }
+
+        th,td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .colunapar{
+            background-color: antiquewhite;
+        }
+
+        .colunaimpar{
+            background-color: aquamarine;
+        }
+
+
+    
+        
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="colunaimpar" > 
+            <col class="colunapar" >
+            <col class="colunaimpar" span="2">
+            <col class="colunapar" >
+            
+        
+        </colgroup>
+
+        <caption>Cadatro</caption>
+
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Enfermeira</td>
+            </tr>
+
+            <tr>
+                <td>Cláudio</td>
+                <td>M</td>
+                <td>35</td>
+                <td>Pedreiro</td>
+            </tr>
+
+            <tr>
+                <td>Jeferson</td>
+                <td>M</td>
+                <td>32</td>
+                <td> Serviços Gerais</td>
+            </tr>
+
+            <tr>
+                <td> Vitória Beatriz</td>
+                <td>F</td>
+                <td>24</td>
+                <td>Psicóloga</td>
+            </tr>
+
+            <tr>
+                <td>Constantino</td>
+                <td>M</td>
+                <td>38</td>
+                <td>Medico</td>
+            </tr>
+
+            <tr>
+                <td>Monalisa</td>
+                <td>F</td>
+                <td>22</td>
+                <td> Cabelereir</td>
+            </tr>
+
+
+
+        </tbody>
+    </table>
+</body>
+</html>
